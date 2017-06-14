@@ -56,7 +56,6 @@
             <li>${location.street}</li>
             <li>${location.city}, ${location.state} ${location.postcode}</li>
           </div>
-
           <div class="email"><b>Email:</b> ${email}</div>
           <div class="login">
             <li><b>Username:</b> ${login.username}</li>
@@ -66,7 +65,6 @@
             <li><b>Sha1:</b> ${login.sha1}</li>
             <li><b>Sha256:</b> ${login.sha256}</li>
           </div>
-
           <div class="dob"><b>DOB:</b> ${dob}</div>
           <div class="registered"><b>Registered:</b> ${registered}</div>
           <div class="phone"><b>Phone:</b> ${phone}</div>
@@ -75,7 +73,6 @@
             <li><b>ID Name:</b> ${id.name}</li>
             <li><b>ID Value:</b> ${id.value}</li>
           </div>
-
           <div class="nat"><b>NAT:</b> ${nat}</div>
           <hr>
         </div>
