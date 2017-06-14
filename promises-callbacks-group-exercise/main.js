@@ -26,7 +26,16 @@ function add1(v) {
 // and console logs 'The number is <number argument>'
 // Ex:
 // multiplyLog(logger, 2); // 'The number is 4'
+function multiplyLog(callaback, number){
+  const newNumber = number * 2;
+  callaback(newNumber);
+}
 
+function functionGoHere(number){
+  console.log(`The number is ${number}`);
+}
+
+multiplyLog(functionGoHere, 2)
 
 
 
